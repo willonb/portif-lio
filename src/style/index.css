@@ -97,21 +97,39 @@ span > button {
 
 section {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 800px;
-  padding-left: 265px;
+  height: 1080px;
   border: 1px solid red;
 }
 
-section > img 
-{
-  width: 500px;
-  height: 207px;
+section > span {
+  font-size: 24px;
+  color: #445964;
+}
+
+.alinhamento-text > h1 {
+  padding-top: 43px;
+  padding-left: 471px;
+}
+
+.skills {
+  padding-top: 108px;
+  padding-left: 525px;
+}
+
+
+.image-skills {
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
+  padding-left: 244px;
 
 }
+
+
 
 
 
